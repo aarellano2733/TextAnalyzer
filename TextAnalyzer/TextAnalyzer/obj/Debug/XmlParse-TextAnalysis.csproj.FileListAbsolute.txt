@@ -1,0 +1,15 @@
+D:\www\ParserApp\XmlParser\XmlParser\bin\Debug\XmlParser.exe.config
+D:\www\ParserApp\XmlParser\XmlParser\bin\Debug\XmlParser.exe
+D:\www\ParserApp\XmlParser\XmlParser\bin\Debug\XmlParser.pdb
+D:\www\ParserApp\XmlParser\XmlParser\bin\Debug\Microsoft.Azure.CognitiveServices.Language.dll
+D:\www\ParserApp\XmlParser\XmlParser\bin\Debug\Microsoft.Rest.ClientRuntime.Azure.dll
+D:\www\ParserApp\XmlParser\XmlParser\bin\Debug\Microsoft.Rest.ClientRuntime.dll
+D:\www\ParserApp\XmlParser\XmlParser\bin\Debug\Newtonsoft.Json.dll
+D:\www\ParserApp\XmlParser\XmlParser\bin\Debug\Microsoft.Azure.CognitiveServices.Language.xml
+D:\www\ParserApp\XmlParser\XmlParser\bin\Debug\Microsoft.Rest.ClientRuntime.xml
+D:\www\ParserApp\XmlParser\XmlParser\bin\Debug\Microsoft.Rest.ClientRuntime.Azure.xml
+D:\www\ParserApp\XmlParser\XmlParser\bin\Debug\Newtonsoft.Json.xml
+D:\www\ParserApp\XmlParser\XmlParser\obj\Debug\XmlParse-TextAnalysis.csprojResolveAssemblyReference.cache
+D:\www\ParserApp\XmlParser\XmlParser\obj\Debug\XmlParse-TextAnalysis.csproj.CoreCompileInputs.cache
+D:\www\ParserApp\XmlParser\XmlParser\obj\Debug\XmlParser.exe
+D:\www\ParserApp\XmlParser\XmlParser\obj\Debug\XmlParser.pdb

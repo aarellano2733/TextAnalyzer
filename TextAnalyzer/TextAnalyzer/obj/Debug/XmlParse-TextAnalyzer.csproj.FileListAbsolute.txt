@@ -1,0 +1,2 @@
+D:\www\TextAnalyzer\TextAnalyzer\TextAnalyzer\obj\Debug\XmlParse-TextAnalyzer.csprojResolveAssemblyReference.cache
+D:\www\TextAnalyzer\TextAnalyzer\TextAnalyzer\obj\Debug\XmlParse-TextAnalyzer.csproj.CoreCompileInputs.cache

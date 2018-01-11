@@ -1,0 +1,336 @@
+/*a img {
+border: 0 none;
+}
+a, a:link, a:focus {
+border: medium none;
+color: #005588;
+text-decoration: none !important;
+}
+a:visited {
+border: medium none;
+color: #11AADD;
+text-decoration: none !important;
+}
+a:active, a:hover {
+border: medium none;
+color: #ee7722;
+text-decoration: none !important;
+}*/
+.rebrand-overlay {
+width:954px;
+}
+div.boxshadow {
+-moz-box-shadow: 0 0 20px 5px #999999;
+box-shadow: 0 0 20px 5px #999999;
+background-color: #75AACC;
+float: left;
+margin: 27px;
+width: 900px;
+height:500px;
+}
+div.borderradius {
+-moz-border-radius: 1em 1em 1em 1em;
+}
+div.innerglow {
+-moz-box-shadow: 0 0 100px 25px #75AACC inset;
+box-shadow: 0 0 100px 25px #75AACC inset;
+background-color: #FFFFFF;
+float: left;
+width: 900px;
+height:500px;
+}
+div.borderradiusinner {
+-moz-border-radius: 0.5em 0.5em 0.5em 0.5em;
+}
+.rebrand-overlay div.ctas {
+color: #FFFFFF;
+font-weight: bold;
+height: 64px;
+position: absolute;
+top: 225px;
+width: 954px;
+}
+.rebrand-overlay div.ctas a, .rebrand-overlay div.ctas a:link, .rebrand-overlay div.ctas a:focus {
+border: medium none;
+color: #FFFFFF !important;
+text-decoration: none !important;
+}
+.rebrand-overlay div.ctas a:visited {
+border: medium none;
+color: #11AADD;
+text-decoration: none !important;
+}
+.rebrand-overlay div.ctas a:active, .rebrand-overlay div.ctas a:hover {
+border: medium none;
+color: #EE7722 !important;
+text-decoration: none !important;
+}
+.ctas-right {
+background: url('../TEimages/rebrand/ctas.png') no-repeat top right;
+cursor:pointer;
+float: right;
+height: 24px;
+padding: 20px 40px 20px 120px;
+text-align: right;
+width: 120px;
+}
+.ctas-left {
+background: url('../TEimages/rebrand/ctas.png') no-repeat top left;
+cursor:pointer;
+float: left;
+height: 24px;
+padding: 20px 120px 20px 40px;
+text-align:left;
+width: 120px;
+}
+.ctas-right:hover {
+background: url('../TEimages/rebrand/ctas.png') no-repeat bottom right;
+color:#ee7722;
+}
+.ctas-left:hover {
+background: url('../TEimages/rebrand/ctas.png') no-repeat bottom left;
+color:#ee7722;
+}
+.close-overlay {
+float:right;
+margin:10px 10px 0 0;
+text-align:right;
+width:150px;
+}
+.close-overlay span {
+background: url('../TEimages/rebrand/close.jpg') no-repeat top right;
+float:right;
+height:17px;
+line-height:17px;
+padding:0 22px 0 0;
+text-transform: uppercase;
+}
+.close-overlay span:hover {
+background: url('../TEimages/rebrand/close.jpg') no-repeat bottom right;
+}
+.logo-and-slogan {
+background: url('../TEimages/rebrand/te_logo.png') no-repeat top left;
+clear: both;
+color: #666666;
+font-family: Arial,Helvetica,Verdana,sans-serif;
+font-size: 12px;
+font-weight: bold;
+height: 80px;
+letter-spacing: 0.05em;
+line-height: 70px;
+margin: 0 0 35px 30px;
+padding: 0 0 0 190px;
+text-transform:uppercase;
+}
+.main-area {
+clear: both;
+margin-left: 110px;
+}
+.main-line {
+color: #A1A1A1;
+font-family: Arial,Helvetica,Verdana,sans-serif;
+font-size: 36px;
+letter-spacing: 0.03em;
+line-height: 38px;
+margin-bottom: 20px;
+text-align: left;
+text-transform:uppercase;
+}
+.main-area span.blue {
+color:#005588;
+}
+.main-area span.orange {
+color:#ee7722;
+}
+.faux-video-area {
+float:left;
+padding-right:15px;
+width:214px;
+}
+.faux-video {
+background: url('../TEimages/rebrand/clickToPlay.png') no-repeat top left;
+cursor: pointer;
+height: 143px;
+}
+.faux-video:hover {
+background: url('../TEimages/rebrand/clickToPlay.png') no-repeat bottom left;
+float:left;
+height:143px;
+width:214px;
+}
+.faux-video-description {
+color:#555555;
+float:left;
+padding-top:5px;
+text-align:center;
+text-transform:uppercase;
+width:214px;
+}
+.main-paragraph {
+color: #555555;
+float: left;
+font-size: 12px;
+letter-spacing: 0.01em;
+line-height: 20px;
+text-align: left;
+width: 440px;
+}
+.main-paragraph strong{
+font-weight:bold;
+text-transform:uppercase;
+}
+.bottom-links {
+clear: both;
+float: left;
+margin: 20px 20px 0;
+width: 860px;
+}
+.social-media-links {
+float:left;
+}
+.learn-more {
+background: url('../TEimages/rebrand/learnMore.png') no-repeat top right;
+color: #555555;
+cursor: pointer;
+float: right;
+font-weight: bold;
+height: 25px;
+line-height: 25px;
+padding: 0 30px 0 0;
+text-transform: uppercase;
+}
+.learn-more span {
+background: url('../TEimages/rebrand/learnMore.png') no-repeat top left;
+float: left;
+height: 25px;
+line-height: 25px;
+margin-left: -20px;
+padding: 0 10px 0 20px;
+}
+.learn-more:hover {
+background: url('../TEimages/rebrand/learnMore.png') no-repeat bottom right;
+}
+.learn-more span:hover {
+background: url('../TEimages/rebrand/learnMore.png') no-repeat bottom left;
+margin-left: -20px;
+}
+.video-placeholder {
+background-color:#ccc;
+margin: 50px 125px 0;
+}
+.rebrand_popup{
+background-color: none!important;
+border:none!important;
+padding:0;
+width:auto;
+height:auto;
+background:none;
+}
+.initial_rebrand_overlay{
+width:900px;
+height:600px;
+}
+.rebrand_video_player{
+padding-left:20%;
+padding-top:5%;
+}
+.VolumeSlider {
+z-index:99999999;
+}
+.home_rebrand_popup{
+
+}
+#languageLinks {
+clear: both;
+float: left;
+margin-bottom: 15px;
+}
+#languageLinks ul {
+list-style:none;
+}
+#languageLinks ul li{
+float:left;
+}
+#languageLinks span.divider{
+color:#ccc;
+float:left;
+padding:0 5px;
+}
+#languageLinks ul li.te-langSelected{
+font-weight:bold;
+}
+.PlayerScreen {
+width:100%!important;
+height:100%!important;
+}
+.Progress {
+width:450px!important;
+}
+
+/*Added for second TE Rebranding overlay for the domain name change overlay*/
+.te-rebrand-2-logo {
+margin: 0 0 20px 30px;
+}
+.te-rebrand-2 {
+float: left;
+margin-left: 110px;
+width: 700px;
+}
+.te-rebrand-2 ul {
+list-style: none outside none;
+margin: 5px 0 10px;
+padding: 0;
+}
+.te-rebrand-2 ul li {
+padding-bottom: 2px;
+padding-top: 2px;
+}
+.te-rebrand-2 .main-line {
+font-size: 30px;
+letter-spacing: 0;
+line-height: 30px;
+margin-bottom: 10px;
+}
+.te-rebrand-2 .main-paragraph {
+font-weight: normal;
+font-size: 12px;
+line-height: 17px;
+}
+.te-rebrand-2 .main-paragraph div {
+padding-bottom:5px;
+}
+.te-rebrand-2 .main-paragraph strong {
+display: block;
+font-weight: bold;
+font-size:12px;
+margin-bottom: 10px;
+text-transform: uppercase;
+letter-spacing: 0.01em;
+line-height: 20px;
+}
+.te-rebrand-2 .main-paragraph .text-link-cta {
+font-size: 14px;
+margin-top: 25px;
+text-transform: uppercase;
+}
+.te-rebrand-2 .left-pic-area {
+background-color: #CCCCCC;
+float: left;
+height: 280px;
+margin-right: 25px;
+width: 230px;
+}
+.te-rebrand-2 .right-text-area {
+float: left;
+width: 425px;
+}
+#overlay2 .te-rebrand-2-logo {
+margin: 0 0 10px 30px!important;
+}
+#overlay2 .te-rebrand-2 .main-line {
+line-height: 10px!important;
+}
+#overlay2 .te-rebrand-2 .main-paragraph {
+font-size: 10px!important;
+line-height: 12px!important;
+}

@@ -1,0 +1,54 @@
+@media print {
+/* CSS on this stylesheet is applied on top of other styles when ANY page is printed */
+/* Remove background colors from tables */
+body {
+background : #fff;
+font-size : 55%;
+margin-top : 0;
+padding : 0;
+}
+table {
+background-color : transparent;
+}
+/* Hide pagemenu, "click here for menu", pagemenu cell, main menu div */
+.TE_rtop, .TE_artop, #TE_corpMenu, #TE_BreadCrumb, .TE_printHide, #TE_search, #TE_menuLoader, #TE_signIn, table#TE_Tabbox th, .menu_preview_cell, #xTooltipElement, #te-nav {
+display : none !important;
+}
+#TE_outerDiv, #te-page, #TE_mainBody {
+overflow : visible !important;
+width : 670px !important;
+margin : 0 !important;
+}
+#TE_headerStub {
+position : absolute;
+}
+#TE_header1px {
+float : right;
+height : 77px;
+margin-bottom : 20px;
+}
+#TE_printDate{
+color : #ccc;
+display : inline;
+position : absolute;
+right : 10px;
+top : 60px;
+}
+div.TE_catalog_priImageDiv, div.TE_catalog_priImageDiv img {
+height : 86px;
+width : 150px;
+}
+div.TE_catalog_prodHighDiv {
+width : 250px;
+}
+div.TE_dottedborder, .TE_noImage {
+width : 150px;
+}
+.TE_noImage {
+height : 86px
+}
+.TE_noImageText {
+padding-bottom : 31px;
+padding-top : 27px;
+}
+}

@@ -1,0 +1,7 @@
+D:\www\ParserApp\XmlParser\XmlParser\bin\Debug\XmlParser.exe.config
+D:\www\ParserApp\XmlParser\XmlParser\bin\Debug\XmlParser.exe
+D:\www\ParserApp\XmlParser\XmlParser\bin\Debug\XmlParser.pdb
+D:\www\ParserApp\XmlParser\XmlParser\obj\Debug\XmlParser.csprojResolveAssemblyReference.cache
+D:\www\ParserApp\XmlParser\XmlParser\obj\Debug\XmlParser.csproj.CoreCompileInputs.cache
+D:\www\ParserApp\XmlParser\XmlParser\obj\Debug\XmlParser.exe
+D:\www\ParserApp\XmlParser\XmlParser\obj\Debug\XmlParser.pdb

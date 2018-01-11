@@ -1,0 +1,52 @@
+<?xml version="1.0"?>
+<html>
+    <head>
+        <title>
+        Emmyloutique.com    
+        </title>
+        <link rel='stylesheet' href="style.css"/>
+   
+        <link rel='stylesheet' type="text/css" href="style.css" />
+        <link href="https://fonts.googleapis.com/css?family=Amatic+SC|Raleway:100,200,600,700" rel="stylesheet" />
+        
+    </head>
+    <body>
+        <nav class = 'Navigation'>
+        <ul>
+        
+            <li>Photos of Emmylou
+            </li>
+            <li>Emmylou Gear
+            </li>
+            <li>An Emmylou History
+            </li>
+            <li class="donation">Emmyloutique Donations
+            </li>
+            </ul>
+        </nav>
+    <div id= "Emmy">
+        <div class="content">
+        <h1> Emmylou, at her CUTEST!</h1>
+        </div>
+    </div>
+    
+    <div id= 'Main' class="content">
+        <h2>
+            THIS PAGE IS DEDICATED TO OUR LITTLE BALL OF JOY, EMMYLOU! <br/>
+        SHE IS OUR LITTLE BUNDLE OF JOY, AND WE CAN'T KEEP HER ALL TO OURSELVES! <br/>
+         WE HOPE YOU ENJOY, AND MAYBE FIND SOME GEAR FOR YOURSELF!<br/>
+        DONATIONS ARE ALWAYS WELCOME AND ACCPTED!<br/> THANK YOU!
+        </h2>
+        <div class= "Writing">
+    <span class="byline" > WRITTEN BY: Jordan Arellano</span>
+    <p> Emmylou's life has been a short but impactful one thus far. She is the pride and joy of our little family, and has been a star in all of her education.  She is working on her "high school" diploma.  This is her advanced class training through a pet store which shall not be named.  She will continue on and receive her training as a Therapy dog, and I am sure she will shine in that as well.  She brings joy to all who see her, and even more to those who meet her.  She is able to bring a smile to those all around her. She works hard to master her training with her father "me" and her mother.  Her story is just beginning, and will continue to flourish. 
+    </p>
+</div>
+    </div>
+        <div class= 'share'>
+        <a href="#">Share</a>
+        <a href="#">Donate</a>
+        <a href="#">Buy</a>
+        </div>
+    </body>
+</html>

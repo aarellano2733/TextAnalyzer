@@ -5,12 +5,24 @@ using Microsoft.Azure.CognitiveServices.Language.TextAnalytics.Models;
 
 namespace TextAnalyzer
 {
-    class Analyzer
+    class Analyzer : Program
     {
-        private IList<string> phrases;
+        private IList<string> _phrases;
+
+        public IList<string> phrases
+        {
+            get
+            {
+                return this._phrases;
+            }
+            set
+            {
+                this.phrases = this._phrases;
+            }
+        }
         public Analyzer(string xml)
         {
-            ITextAnalyticsAPI client = Program.Client();
+            ITextAnalyticsAPI client = Client();
             string xmlString = xml;
             Console.OutputEncoding = System.Text.Encoding.UTF8;
             Console.WriteLine("\n\n####TEXT ANALYSIS####");
@@ -30,8 +42,8 @@ namespace TextAnalyzer
                     phrases = item.KeyPhrases;
                 }
             }
-            Sentiment(phrases);
-            Recommendations(phrases);
+            Sentiment sentiment = new Sentiment(phrases);
+           // Recommendations(phrases);
         }
     }
 }

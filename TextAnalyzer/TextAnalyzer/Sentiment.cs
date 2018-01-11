@@ -5,8 +5,21 @@ using Microsoft.Azure.CognitiveServices.Language.TextAnalytics.Models;
 
 namespace TextAnalyzer
 {
-    class Sentiment
+    class Sentiment : Program
     {
+        private List<double?> _score;
+
+        public List<double?> score
+        {
+            get
+            {
+                return this._score;
+            }
+            set
+            {
+                this.score = this._score;
+            }
+        }
         public Sentiment(IList<string> phraseList)
         {
 
@@ -24,6 +37,7 @@ namespace TextAnalyzer
                 Console.WriteLine("Document ID: {0}", "Sentiment Score: {1:0.00}", item.Id);
                 Console.WriteLine(item.Score);
                 sentiment = item.Score;
+                this._score.Add(sentiment);
             };
         }
     }

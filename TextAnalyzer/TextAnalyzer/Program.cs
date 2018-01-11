@@ -10,7 +10,7 @@ namespace TextAnalyzer
 {
     class Program
     {
-        public ITextAnalyticsAPI Client()
+        public static ITextAnalyticsAPI Client()
         {
             ITextAnalyticsAPI client = new TextAnalyticsAPI();
             client.AzureRegion = AzureRegions.Westeurope;
@@ -21,7 +21,7 @@ namespace TextAnalyzer
         {
             Parser pObj = new Parser();
 
-            Console.WriteLine("The score is: {0}", score);
+            Console.WriteLine("The score is: {0}", pObj.Score);
             Console.ReadLine();
         }
     }

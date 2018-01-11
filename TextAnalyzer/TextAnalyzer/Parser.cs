@@ -9,6 +9,8 @@ namespace TextAnalyzer
     {
         private string parsedXml;
         private string _parsedXml { get; set; }
+        public List<double?> Score { get; set; }
+        public IList<string> Phrases { get; set; }
         public Parser()
         {
             //Needs to Add Schema Validation
@@ -22,7 +24,19 @@ namespace TextAnalyzer
             }
             string parsedXml = string.Join("", fields.ToArray());
             Console.WriteLine(parsedXml);
-            Analyzer(parsedXml);
+            Analize();
+            GetScore();
+            
+        }
+        public IList<string> Analize()
+        {
+            Analyzer analyzer = new Analyzer(parsedXml);
+            return analyzer.phrases;
+        }
+        public List<double?> GetScore()
+        {
+            Sentiment sentiment = new Sentiment(Phrases);
+            return sentiment.score;
         }
     }
 }

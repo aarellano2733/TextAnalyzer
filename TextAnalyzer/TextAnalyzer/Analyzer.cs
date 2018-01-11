@@ -8,9 +8,9 @@ namespace TextAnalyzer
     class Analyzer
     {
         private IList<string> phrases;
-        public Analyzer(string xml)
+        public Analyzer(string xml) 
         {
-            ITextAnalyticsAPI client = Program.Client();
+            ITextAnalyticsAPI client = Client();
             string xmlString = xml;
             Console.OutputEncoding = System.Text.Encoding.UTF8;
             Console.WriteLine("\n\n####TEXT ANALYSIS####");
@@ -30,7 +30,6 @@ namespace TextAnalyzer
                     phrases = item.KeyPhrases;
                 }
             }
-            Sentiment(phrases);
             Recommendations(phrases);
         }
     }

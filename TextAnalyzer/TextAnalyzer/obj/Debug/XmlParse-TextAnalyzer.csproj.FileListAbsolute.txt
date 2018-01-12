@@ -1,2 +1,15 @@
 D:\www\TextAnalyzer\TextAnalyzer\TextAnalyzer\obj\Debug\XmlParse-TextAnalyzer.csprojResolveAssemblyReference.cache
 D:\www\TextAnalyzer\TextAnalyzer\TextAnalyzer\obj\Debug\XmlParse-TextAnalyzer.csproj.CoreCompileInputs.cache
+D:\www\TextAnalyzer\TextAnalyzer\TextAnalyzer\bin\Debug\XmlParser.exe.config
+D:\www\TextAnalyzer\TextAnalyzer\TextAnalyzer\bin\Debug\XmlParser.exe
+D:\www\TextAnalyzer\TextAnalyzer\TextAnalyzer\bin\Debug\XmlParser.pdb
+D:\www\TextAnalyzer\TextAnalyzer\TextAnalyzer\bin\Debug\Microsoft.Azure.CognitiveServices.Language.dll
+D:\www\TextAnalyzer\TextAnalyzer\TextAnalyzer\bin\Debug\Microsoft.Rest.ClientRuntime.Azure.dll
+D:\www\TextAnalyzer\TextAnalyzer\TextAnalyzer\bin\Debug\Microsoft.Rest.ClientRuntime.dll
+D:\www\TextAnalyzer\TextAnalyzer\TextAnalyzer\bin\Debug\Newtonsoft.Json.dll
+D:\www\TextAnalyzer\TextAnalyzer\TextAnalyzer\bin\Debug\Microsoft.Azure.CognitiveServices.Language.xml
+D:\www\TextAnalyzer\TextAnalyzer\TextAnalyzer\bin\Debug\Microsoft.Rest.ClientRuntime.xml
+D:\www\TextAnalyzer\TextAnalyzer\TextAnalyzer\bin\Debug\Microsoft.Rest.ClientRuntime.Azure.xml
+D:\www\TextAnalyzer\TextAnalyzer\TextAnalyzer\bin\Debug\Newtonsoft.Json.xml
+D:\www\TextAnalyzer\TextAnalyzer\TextAnalyzer\obj\Debug\XmlParser.exe
+D:\www\TextAnalyzer\TextAnalyzer\TextAnalyzer\obj\Debug\XmlParser.pdb

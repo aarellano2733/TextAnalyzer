@@ -5,11 +5,10 @@ using Microsoft.Azure.CognitiveServices.Language.TextAnalytics.Models;
 
 namespace TextAnalyzer
 {
-    class Sentiment
+    class Sentiment : Program
     {
         public Sentiment(IList<string> phraseList)
         {
-
             Console.WriteLine("\n\n####SENTIMENT SCORE####");
             ITextAnalyticsAPI client = Client();
             double? sentiment = new double?();

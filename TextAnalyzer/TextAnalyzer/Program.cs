@@ -17,6 +17,7 @@ namespace TextAnalyzer
             client.SubscriptionKey = "c73f4ffebd444e1189a3e41aecc2c159";
             return client;
         }
+        public 
         static void Main(string[] args)
         {
             Parser pObj = new Parser();

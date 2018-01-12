@@ -22,7 +22,7 @@ namespace TextAnalyzer
         {
             Parser pObj = new Parser();
 
-            Console.WriteLine("The score is: {0}", score);
+           // Console.WriteLine("The score is: {0}", score);
             Console.ReadLine();
         }
     }

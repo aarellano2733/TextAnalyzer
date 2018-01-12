@@ -1,2 +1,17 @@
 D:\www\TextAnalyzer\TextAnalyzer\TextAnalyzer\obj\Debug\XmlParse-TextAnalyzer.csprojResolveAssemblyReference.cache
 D:\www\TextAnalyzer\TextAnalyzer\TextAnalyzer\obj\Debug\XmlParse-TextAnalyzer.csproj.CoreCompileInputs.cache
+C:\Projects\TextAnalyzer\TextAnalyzer\TextAnalyzer\obj\Debug\XmlParse-TextAnalyzer.csprojResolveAssemblyReference.cache
+C:\Projects\TextAnalyzer\TextAnalyzer\TextAnalyzer\obj\Debug\XmlParse-TextAnalyzer.csproj.CoreCompileInputs.cache
+C:\Projects\TextAnalyzer\TextAnalyzer\TextAnalyzer\bin\Debug\XmlParser.exe.config
+C:\Projects\TextAnalyzer\TextAnalyzer\TextAnalyzer\bin\Debug\XmlParser.exe
+C:\Projects\TextAnalyzer\TextAnalyzer\TextAnalyzer\bin\Debug\XmlParser.pdb
+C:\Projects\TextAnalyzer\TextAnalyzer\TextAnalyzer\bin\Debug\Microsoft.Azure.Management.CognitiveServices.dll
+C:\Projects\TextAnalyzer\TextAnalyzer\TextAnalyzer\bin\Debug\Microsoft.Azure.Management.MachineLearning.dll
+C:\Projects\TextAnalyzer\TextAnalyzer\TextAnalyzer\bin\Debug\Microsoft.Azure.CognitiveServices.Language.xml
+C:\Projects\TextAnalyzer\TextAnalyzer\TextAnalyzer\bin\Debug\Microsoft.Azure.Management.CognitiveServices.xml
+C:\Projects\TextAnalyzer\TextAnalyzer\TextAnalyzer\bin\Debug\Microsoft.Azure.Management.MachineLearning.xml
+C:\Projects\TextAnalyzer\TextAnalyzer\TextAnalyzer\bin\Debug\Microsoft.Rest.ClientRuntime.xml
+C:\Projects\TextAnalyzer\TextAnalyzer\TextAnalyzer\bin\Debug\Microsoft.Rest.ClientRuntime.Azure.xml
+C:\Projects\TextAnalyzer\TextAnalyzer\TextAnalyzer\bin\Debug\Newtonsoft.Json.xml
+C:\Projects\TextAnalyzer\TextAnalyzer\TextAnalyzer\obj\Debug\XmlParser.exe
+C:\Projects\TextAnalyzer\TextAnalyzer\TextAnalyzer\obj\Debug\XmlParser.pdb

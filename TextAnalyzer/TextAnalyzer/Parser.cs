@@ -12,21 +12,39 @@ namespace TextAnalyzer
         public List<string> Phrases { get; set; }
         public List<double?> Score { get; set; }
         public List<string> Recommended { get; set; }
+
         public Parser()
         {
-            XmlDocument shelf = new XmlDocument();
-            shelf.Load(Path.Combine(Environment.CurrentDirectory, "books.xml"));
-            XmlNode book = shelf.SelectSingleNode("/catalog");
-            List<string> fields = new List<string>();
-            foreach (XmlNode field in book.ChildNodes)
+            List<XmlDocument> documentsToParse = new List<XmlDocument>();
+            string path = @"C:\Projects\TextAnalyzer\TextAnalyzer\TextAnalyzer\bin\Debug\HTML Page\Analog Devices";
+            foreach (string file in Directory.EnumerateFiles(path, "*.html", SearchOption.AllDirectories))
             {
-                fields.Add(field.InnerText);
+                XmlDocument newDocument = new XmlDocument();
+                newDocument.Load(file);
+                documentsToParse.Add(newDocument);
             }
-            string parsedXml = string.Join("", fields.ToArray());
-            Console.WriteLine(parsedXml);
+
+            List<XmlNode> nodeList = new List<XmlNode>();
+            List<string> stringsToAnalyze = new List<string>();
+            foreach (XmlDocument d in documentsToParse)
+            {
+                XmlNode node = d.SelectSingleNode("/html");
+                string parsedXml = "";
+                foreach (XmlNode field in node.ChildNodes)
+                {
+                    parsedXml += field.InnerText;
+                }
+                Console.WriteLine(parsedXml);
+                Console.WriteLine("Parsed XML is " + parsedXml.Length + " characters long");
+                stringsToAnalyze.Add(parsedXml);
+            }
+
+
+
             Analyze();
             //GetScore();
-            Recommend();
+            //Recommend();
+        }
             public IList<string> Analyze()
             {
                 Analyzer analyzer = new Analyzer(parsedXml);
@@ -37,11 +55,10 @@ namespace TextAnalyzer
             //    Sentiment sentiment = new Sentiment();
             //    return sentiment.score;
             //}
-            public IList<string> Recommend()
-            {
-                Recommender recommender = Recommender(Phrases);
-                return recommender.recommendations;
-            }
+            //public IList<string> Recommend()
+            //{
+            //    Recommender recommender = Recommender(Phrases);
+            //    return recommender.recommendations;
+            //}
         }
     }
-}
